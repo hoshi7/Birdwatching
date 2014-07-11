@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1AD939D4-7663-4CE0-A9B4-C858430CF6A5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BirdWatching</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5AA4B10D-8C88-4872-B967-2C0E49A15466</key>
+		<string>ssh://github.com/hoshi7/Birdwatching.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BirdWatching.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5AA4B10D-8C88-4872-B967-2C0E49A15466</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/hoshi7/Birdwatching.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5AA4B10D-8C88-4872-B967-2C0E49A15466</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5AA4B10D-8C88-4872-B967-2C0E49A15466</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BirdWatching_ObjectiveC</string>
+		</dict>
+	</array>
+</dict>
+</plist>
