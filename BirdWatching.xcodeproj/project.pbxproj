@@ -24,6 +24,8 @@
 		13C6137C1966A76E000620CC /* BirdWatchingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C6137B1966A76E000620CC /* BirdWatchingTests.m */; };
 		13C613871966AA74000620CC /* BirdSighting.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C613861966AA74000620CC /* BirdSighting.m */; };
 		13C6138A1966AEB0000620CC /* BirdSightingDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C613891966AEB0000620CC /* BirdSightingDataController.m */; };
+		13E14E0B197682FD0050BC5B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E14E0A197682FD0050BC5B /* CoreData.framework */; };
+		13E14E0E197683EB0050BC5B /* BirdSightingModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 13E14E0C197683EB0050BC5B /* BirdSightingModel.xcdatamodeld */; };
 		13F0150C196D469700EC0039 /* AddSightingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F0150B196D469700EC0039 /* AddSightingViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +65,8 @@
 		13C613861966AA74000620CC /* BirdSighting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BirdSighting.m; sourceTree = "<group>"; };
 		13C613881966AEB0000620CC /* BirdSightingDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BirdSightingDataController.h; sourceTree = "<group>"; };
 		13C613891966AEB0000620CC /* BirdSightingDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BirdSightingDataController.m; sourceTree = "<group>"; };
+		13E14E0A197682FD0050BC5B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		13E14E0D197683EB0050BC5B /* BirdSightingModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BirdSightingModel.xcdatamodel; sourceTree = "<group>"; };
 		13F0150A196D469700EC0039 /* AddSightingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddSightingViewController.h; sourceTree = "<group>"; };
 		13F0150B196D469700EC0039 /* AddSightingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddSightingViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13E14E0B197682FD0050BC5B /* CoreData.framework in Frameworks */,
 				13C613501966A76E000620CC /* CoreGraphics.framework in Frameworks */,
 				13C613521966A76E000620CC /* UIKit.framework in Frameworks */,
 				13C6134E1966A76E000620CC /* Foundation.framework in Frameworks */,
@@ -113,6 +118,7 @@
 		13C6134C1966A76E000620CC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				13E14E0A197682FD0050BC5B /* CoreData.framework */,
 				13C6134D1966A76E000620CC /* Foundation.framework */,
 				13C6134F1966A76E000620CC /* CoreGraphics.framework */,
 				13C613511966A76E000620CC /* UIKit.framework */,
@@ -124,6 +130,7 @@
 		13C613531966A76E000620CC /* BirdWatching */ = {
 			isa = PBXGroup;
 			children = (
+				13E14E0C197683EB0050BC5B /* BirdSightingModel.xcdatamodeld */,
 				13C613881966AEB0000620CC /* BirdSightingDataController.h */,
 				13C613891966AEB0000620CC /* BirdSightingDataController.m */,
 				13C6135C1966A76E000620CC /* BirdsAppDelegate.h */,
@@ -275,6 +282,7 @@
 				13F0150C196D469700EC0039 /* AddSightingViewController.m in Sources */,
 				13C613871966AA74000620CC /* BirdSighting.m in Sources */,
 				13C6135E1966A76E000620CC /* BirdsAppDelegate.m in Sources */,
+				13E14E0E197683EB0050BC5B /* BirdSightingModel.xcdatamodeld in Sources */,
 				13C613641966A76E000620CC /* BirdsMasterViewController.m in Sources */,
 				13C6138A1966AEB0000620CC /* BirdSightingDataController.m in Sources */,
 			);
@@ -493,6 +501,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		13E14E0C197683EB0050BC5B /* BirdSightingModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				13E14E0D197683EB0050BC5B /* BirdSightingModel.xcdatamodel */,
+			);
+			currentVersion = 13E14E0D197683EB0050BC5B /* BirdSightingModel.xcdatamodel */;
+			name = BirdSightingModel.xcdatamodeld;
+			path = ../BirdSightingModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 13C613421966A76E000620CC /* Project object */;
 }
