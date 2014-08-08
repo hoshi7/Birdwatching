@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BirdSighitingCoreData.h"
 
-@interface BirdsAppDelegate : UIResponder <UIApplicationDelegate>
+@interface BirdsAppDelegate : UIResponder <UIApplicationDelegate>{
+    BirdSighitingCoreData *simpleCoreData_;
+}
 
 @property (strong, nonatomic) UIWindow *window;
 

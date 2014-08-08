@@ -15,7 +15,9 @@
 
 @implementation BirdSightingDataController
 
+
 - (void)initializeDefaultDataList {
+    
     NSMutableArray *sightingList = [[NSMutableArray alloc] init];
     self.masterBirdSightingList = sightingList;
     BirdSighting *sighting;
